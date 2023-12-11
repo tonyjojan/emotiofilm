@@ -8,6 +8,7 @@ app = Flask(__name__)
 def main():
     return '''
      <form action="/echo_user_input" method="POST">
+        <h1>Please enter something to see on the screen."</h1"
          <input name="user_input">
          <input type="submit" value="Submit!">
      </form>
